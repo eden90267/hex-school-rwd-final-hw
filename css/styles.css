@@ -248,8 +248,8 @@ img {
 
 .feeling ul li {
 	float:  left;
-	width: 30.33333%;
-	margin-left: 3%;
+	width: 32.33333%;
+	margin-left: 1%;
 }
 
 .avatar-head-pic {
@@ -262,7 +262,7 @@ img {
 }
 
 .feeling .avatar-detail li {
-	width: 100%;
+	width: 85%;
 	float: left;
 }
 
