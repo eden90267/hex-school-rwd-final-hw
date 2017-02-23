@@ -60,6 +60,12 @@ img {
 	display: table;
 	clear: both;
 }
+.radius-50-img {
+	border-radius: 50%;
+}
+* {
+	color: #3D1101;
+}
 /* css reset end */
 
 .wrap {
@@ -73,7 +79,6 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 56px;
-	z-index: 100;
 }
 
 .header .logo {
@@ -141,5 +146,139 @@ img {
 	text-align: center;
 	padding-bottom: 26px;
 	line-height: 25px;
+}
+
+.feature {
+	background-color: #efe9e7;
+}
+
+.feature h2 {
+	text-align: center;
+	line-height: 32px;
+	padding-top: 50px;
+	padding-bottom: 31px;
+	position: relative;
+}
+
+.feature h2 fieldset {
+	border-top: 1px solid #979797;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.feature h2 fieldset legend {
+	padding: 0 15px;
+}
+
+.feature ul {
+	padding-bottom: 50px;
+}
+
+.feature ul li {
+	float: left;
+	width: 27.33333%;
+	padding: 1%;
+	margin-left: 5%;
+}
+
+.feature ul li div {
+	text-align: center;
+}
+
+.feature ul li h2 {
+	padding-top: 20px;
+	padding-bottom: 11px;
+}
+
+.feature ul li span {
+	line-height: 1.2;
+}
+
+.tody-chef {
+	background-color: #3d1101;
+}
+
+.todo-chef-pic {
+	float: left;
+	width: 40%;
+	height: 460px;
+	margin-left: 3%;
+	background-image: url(../img/main_chef_brown.png);
+	background-position: center;
+}
+
+.todo-chef-intro {
+	float: left;
+	width: 40%;
+	margin-left: 3%;
+	padding-top: 81px;
+}
+
+.todo-chef-intro h2, .todo-chef-intro h3, .todo-chef-intro span {
+	color: #EFE9E7;
+}
+
+.todo-chef-intro h2 {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.todo-chef-intro h3 {
+	margin-bottom: 16px;
+}
+
+.todo-chef-intro span {
+	line-height: 1.2;
+}
+
+.feeling {
+	background: #efe9e7;
+}
+
+.feeling h2 {
+	padding-top: 50px;
+	padding-bottom: 32px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.feeling ul {
+	padding-bottom: 50px;
+}
+
+.feeling ul li {
+	float:  left;
+	width: 30.33333%;
+	margin-left: 3%;
+}
+
+.avatar-head-pic {
+	float: left;
+	width: 67px;
+}
+
+.avatar-detail {
+	margin-left: 80px;
+}
+
+.feeling .avatar-detail li {
+	width: 100%;
+	float: left;
+}
+
+.avatar-nickname {
+	font-size: 18px;
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+
+.avatar-content {
+	margin-bottom: 22px;
+	line-height: 24px;
+}
+
+.avatar-name {
+	text-align: right;
+	color: rgba(61,17,0,0.75);
 }
 
