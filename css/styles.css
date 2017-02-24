@@ -98,16 +98,22 @@ img {
 	white-space: nowrap;
 }
 
-.header ul {
+@media (max-width: 767px) {
+	.header .logo a {
+		margin-left: 20px;
+	}
+}
+
+.menu {
 	float:  right;
 	margin-right: 30px;
 }
 
-.header ul li {
+.menu li {
 	float: left;
 }
 
-.header ul li a {
+.menu li a {
 	display: block;
 	height: 56px;
 	color: #fff;
@@ -116,8 +122,44 @@ img {
 	padding: 0 20px;
 }
 
-.header ul li a:hover {
+.menu li a:hover {
 	border-bottom: 3px solid #fff;
+}
+
+.menu-hamburger {
+	display: none;
+}
+
+.menu-hamburger i {
+	float: right;
+	color: #fff;
+	font-size: 30px;
+	height: 56px;
+	line-height: 56px;
+	margin-right: 20px;
+}
+
+@media (max-width: 767px){
+	.menu {
+    	max-height: 0;
+    	overflow: hidden;
+    	position: absolute;
+    	transition: max-height 0.5s;
+    	top: 56px;
+    	z-index: 100;
+    	background: rgba(0,0,0,0.75);
+    	width: 100%;
+	}
+	.menu li {
+		float: right;
+	}
+	.menu-hamburger {
+		display: inline;
+	}
+	/*jQ點擊後動態在 body 加上 class */
+  	.menu-show .menu{
+    	max-height: 56px;
+  	}
 }
 
 .banner {
@@ -129,8 +171,14 @@ img {
 
 .banner-intro {
 	background: rgba(0,0,0,0.35);
-	width: 45%;
+	width: 460px;
 	margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+	.banner-intro {
+		width: 300px;
+	}
 }
 
 .banner-intro h2 {
@@ -140,12 +188,26 @@ img {
 	text-align: center;
 }
 
+.banner-intro-line-feed {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.banner-intro-line-feed {
+		display: inline;
+	}
+}
+
 .banner-intro span {
 	color: #fff;
 	display: block;
 	text-align: center;
 	padding-bottom: 26px;
 	line-height: 25px;
+}
+
+.banner-intro span i {
+	color: #fff;
 }
 
 .feature {
@@ -162,8 +224,14 @@ img {
 
 .feature h2 fieldset {
 	border-top: 1px solid #979797;
-	width: 40%;
+	width: 350px;
 	margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+	.feature h2 fieldset {
+		width: 300px;
+	}
 }
 
 .feature h2 fieldset legend {
@@ -179,6 +247,13 @@ img {
 	width: 27.33333%;
 	padding: 1%;
 	margin-left: 5%;
+}
+
+@media (max-width: 767px) {
+	.feature ul li {
+		width: 94%;
+		margin-bottom: 4%;
+	}
 }
 
 .feature ul li div {
@@ -198,20 +273,41 @@ img {
 	background-color: #3d1101;
 }
 
-.todo-chef-pic {
+.todo-chef-intro, .todo-chef-pic {
 	float: left;
 	width: 40%;
-	height: 460px;
 	margin-left: 3%;
+}
+
+@media (max-width: 767px) {
+	.todo-chef-intro, .todo-chef-pic {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+.todo-chef-pic {
+	height: 460px;
 	background-image: url(../img/main_chef_brown.png);
+	background-repeat: no-repeat;
 	background-position: center;
 }
 
+@media (max-width: 767px) {
+	.todo-chef-pic {
+		background-size: cover;
+		background-position: center top;
+	}
+}
+
 .todo-chef-intro {
-	float: left;
-	width: 40%;
-	margin-left: 3%;
 	padding-top: 81px;
+}
+
+@media (max-width: 767px) {
+	.todo-chef-intro {
+		padding: 5%;
+	}
 }
 
 .todo-chef-intro h2, .todo-chef-intro h3, .todo-chef-intro span {
@@ -247,9 +343,17 @@ img {
 }
 
 .feeling ul li {
-	float:  left;
+	float: left;
 	width: 32.33333%;
 	margin-left: 1%;
+}
+
+@media (max-width: 767px) {
+	.feeling ul li {
+		width: 98%;
+		margin-left: 2%;
+		margin-bottom: 5%;
+	}
 }
 
 .avatar-head-pic {
@@ -296,6 +400,7 @@ img {
 
 .order .map {
 	background-image: url('../img/Map.png');
+	background-repeat: no-repeat;
 	background-position: center;
 	float: left;
 	margin-left: 3%;
@@ -303,10 +408,26 @@ img {
 	height: 388px;
 }
 
+@media (max-width: 767px) {
+	.order .map {
+		background-size: cover;
+		margin: 0 3%;
+		width: 94%;
+	}
+}
+
 .order .form {
 	float: left;
 	width: 50%;
-	margin-left: 2%;
+	margin-left: 3%;
+}
+
+@media (max-width: 767px) {
+	.order .form {
+		margin: 30px 3% 0;
+		width: 94%;
+		margin-top: 30px;
+	}
 }
 
 .order .form ul li {
@@ -377,6 +498,13 @@ img {
 	padding-right: 5%;
 }
 
+@media (max-width: 767px) {
+	.footer ul li {
+		width: 97%;
+		margin-bottom: 30px;
+	}
+}
+
 .footer ul li h2 {
 	font-size: 24px;
 	margin-bottom: 16px;
@@ -390,6 +518,12 @@ img {
 	width: 94%;
 	margin-bottom: 22px;
 	float: left;
+}
+
+@media (max-width: 767px) {
+	.footer-logo {
+		text-align: right;
+	}
 }
 
 .footer-share-link {
