@@ -68,6 +68,10 @@ img {
 }
 /* css reset end */
 
+
+
+/* template css */
+
 .wrap {
 	max-width: 1024px;
 	margin: 0 auto;
@@ -167,6 +171,57 @@ img {
     	max-height: 56px;
   	}
 }
+
+.footer {
+	background-color: #efe9e7;
+	padding: 50px 0;
+}
+
+.footer ul li {
+	float: left;
+	width: 30.33333%;
+	margin-left: 3%;
+	padding-right: 5%;
+}
+
+@media (max-width: 767px) {
+	.footer ul li {
+		width: 97%;
+		margin-bottom: 30px;
+	}
+}
+
+.footer ul li h2 {
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+
+.footer ul li span {
+	line-height: 1.2;
+}
+
+.footer-logo {
+	width: 94%;
+	margin-bottom: 22px;
+	float: left;
+}
+
+@media (max-width: 767px) {
+	.footer-logo {
+		text-align: right;
+	}
+}
+
+.footer-share-link {
+	text-align: right;
+	float: left;
+	width: 94%;
+}
+
+/* template css end */
+
+
+/* index.html css */
 
 .banner {
 	background-image: url(../img/header_desktop.png);
@@ -493,48 +548,7 @@ img {
 	background: #838080;
 }
 
-.footer {
-	background-color: #efe9e7;
-	padding: 50px 0;
-}
+/* index.html css end */
 
-.footer ul li {
-	float: left;
-	width: 30.33333%;
-	margin-left: 3%;
-	padding-right: 5%;
-}
 
-@media (max-width: 767px) {
-	.footer ul li {
-		width: 97%;
-		margin-bottom: 30px;
-	}
-}
-
-.footer ul li h2 {
-	font-size: 24px;
-	margin-bottom: 16px;
-}
-
-.footer ul li span {
-	line-height: 1.2;
-}
-
-.footer-logo {
-	width: 94%;
-	margin-bottom: 22px;
-	float: left;
-}
-
-@media (max-width: 767px) {
-	.footer-logo {
-		text-align: right;
-	}
-}
-
-.footer-share-link {
-	text-align: right;
-	float: left;
-	width: 94%;
-}
+/* card.html css */
