@@ -282,3 +282,118 @@ img {
 	color: rgba(61,17,0,0.75);
 }
 
+.order {
+	background: rgba(250,250,250,0.70);
+	padding-bottom: 50px;
+}
+
+.order h2 {
+	font-size: 24px;
+	padding-top: 50px;
+	padding-bottom: 38px;
+	text-align: center;
+}
+
+.order .map {
+	background-image: url('../img/Map.png');
+	background-position: center;
+	float: left;
+	margin-left: 3%;
+	width: 40%;
+	height: 388px;
+}
+
+.order .form {
+	float: left;
+	width: 50%;
+	margin-left: 2%;
+}
+
+.order .form ul li {
+	margin-bottom: 20px;
+}
+
+.order .form ul li label {
+	display: block;
+	margin-bottom: 6px;
+}
+
+
+.order .form ul li input[type=text], 
+.order .form ul li input[type=email], 
+.order .form ul li input[type=tel], 
+.order .form ul li input[type=number] {
+	width: 100%;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-shadow: inset 0px 1px 0px 0px #ECECEC;
+	border-radius: 3px;
+	height: 30px;
+	font-size: 16px;
+	padding: 3px 0 3px 10px;
+}
+
+.order .form ul li:last-child {
+	margin-top: 27px;
+	text-align: right;
+}
+
+.order .form ul li input[type=radio] {
+	margin-right: 36px;
+}
+
+.order .form ul li input[type=submit], .order .form ul li input[type=reset] {
+	padding: 8px 20px;
+	color: #fff;
+	border-radius: 3px;
+	border:  none;
+}
+
+.order .form ul li input[type=submit] {
+	background: #f56c23;
+}
+
+.order .form ul li input[type=submit]:hover {
+	background: #F4621E;
+}
+
+.order .form ul li input[type=reset] {
+	background: #a09e9e;
+}
+
+.order .form ul li input[type=reset]:hover {
+	background: #838080;
+}
+
+.footer {
+	background-color: #efe9e7;
+	padding: 50px 0;
+}
+
+.footer ul li {
+	float: left;
+	width: 30.33333%;
+	margin-left: 3%;
+	padding-right: 5%;
+}
+
+.footer ul li h2 {
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+
+.footer ul li span {
+	line-height: 1.2;
+}
+
+.footer-logo {
+	width: 94%;
+	margin-bottom: 22px;
+	float: left;
+}
+
+.footer-share-link {
+	text-align: right;
+	float: left;
+	width: 94%;
+}
