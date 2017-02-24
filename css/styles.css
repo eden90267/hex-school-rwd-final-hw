@@ -81,6 +81,12 @@ img {
 	height: 56px;
 }
 
+@media (max-width: 767px) {
+	.header {
+		position: fixed;
+	}
+}
+
 .header .logo {
 	float: left;
 }
@@ -105,7 +111,7 @@ img {
 }
 
 .menu {
-	float:  right;
+	float: right;
 	margin-right: 30px;
 }
 
