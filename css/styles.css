@@ -219,6 +219,10 @@ img {
 	width: 94%;
 }
 
+.footer-share-link a {
+	cursor: pointer;
+}
+
 /* template css end */
 
 
@@ -531,10 +535,12 @@ img {
 	color: #fff;
 	border-radius: 3px;
 	border:  none;
+	cursor: pointer;
 }
 
 .order .form ul li input[type=submit] {
 	background: #f56c23;
+	cursor: pointer;
 }
 
 .order .form ul li input[type=submit]:hover {
@@ -817,7 +823,109 @@ img {
 	color: #fff;
 }
 
-
 /* cart.html css end */
 
 
+
+/* login.html css */
+
+.login {
+	background-color: #efe9e7;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.login div {
+	text-align: center;
+}
+
+.login-logo {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.login h3 {
+	margin-top: 5px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.login-block {
+	border-top: 3px solid #ff5e45;
+	box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+	width: 300px;
+	margin: 0 auto;
+}
+
+.login-block h3 {
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+.login-block ul {
+	padding: 3%;
+}
+
+.login-block ul li {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.login-block label, .login-block span {
+	display: block;
+	text-align: left;
+	margin-bottom: 3px;
+}
+
+.login-block span {
+	font-size: 12px;
+	color: #ff5e45;
+	margin-top: 2px;
+}
+
+.login-block ul li {
+	position: relative;
+}
+
+.login-block ul li .fa-envelope-o, 
+.login-block ul li .fa-key {
+	position: absolute;
+	top: 27px;
+	left: 10px;
+	color: rgba(61,17,0,0.50);
+}
+
+.login-block ul li input[type=email],
+.login-block ul li input[type=password] {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-shadow: inset 0px 1px 0px 0px #ECECEC;
+	border-radius: 3px;
+	width: 270px;
+	height: 32px;
+	padding-left: 32px;
+}
+
+.login-block ul li:last-child {
+	text-align: center;
+}
+
+.login-block ul li:last-child button, 
+.login-block ul li:last-child input[type=submit] {
+	border: 0;
+	border-radius: 3px;
+	color: #fff;
+	padding: 5px;
+	width: 125px;
+}
+
+.btn-register {
+	background: rgba(0,0,0,0.35);
+}
+
+.btn-login {
+	background: #F56C23;
+}
+
+
+/* login.html css end */
