@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>六角西餐廳-登入</title>
+	<title>六角西餐廳-註冊</title>
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<meta name="description" content="六角西餐廳-咬一口就無法忘懷的漢堡" />
@@ -41,32 +41,43 @@
 			</div>
 		</div>
 
-		<div class="login">
-			<div class="login-logo">
+		<div class="registry">
+			<div class="registry-logo">
 				<img src="img/logo_l@svg.svg">
 			</div>
 			<h3>享受美食好味道</h3>
-			<form action="login.html" class="login-form">
-				<h3>LOGIN</h3>
-				<ul>
-					<li>
-						<label>Email Address*</label>
-						<i class="fa fa-envelope-o" aria-hidden="true"></i>
-						<input type="email" name="email" id="email">
-					</li>
-					<li>
-						<label>Password*</label>
-						<i class="fa fa-key" aria-hidden="true"></i>
-						<input type="password" name="password" id="password">
-						<span>忘記密碼？</span>
-					</li>
-					<li>
-						<a href="#"><button class="btn-register">註冊</button></a>
-						<input type="submit" name="submit" id="submit" value="登入" class="btn-login">
-					</li>
-				</ul>
-			</form>
+
+			<div class="registry-content clearfix">
+				<h2>REGISTER</h2>
+				<div class="registry-terms">
+					<span>
+						就是這樣條款：<br>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien...
+					</span>
+				</div>
+				<form action="registry.html" class="registry-form">
+					<ul>
+						<li>
+							<label>Email Address*</label>
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<input type="email" name="email" id="email">
+						</li>
+						<li>
+							<label>Password*</label>
+							<i class="fa fa-key" aria-hidden="true"></i>
+							<input type="password" name="password" id="password">
+						</li>
+						<li>
+							<i class="fa fa-key confirm-key" aria-hidden="true"></i>
+							<input type="password" name="password" id="password"><span>忘記密碼？</span>
+						</li>
+						<li>
+							<input type="submit" name="registry" value="註冊">
+						</li>
+					</ul>
+				</form>
+			</div>
 		</div>
+
 
 		<div class="footer clearfix">
 			<ul>
